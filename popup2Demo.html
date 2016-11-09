@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="css/public.css" />
+<link rel="stylesheet" href="css/assetType.css">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script src="js/common/popup.js"></script>
+<script src="js/assetTypeList.js"></script>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>资管后台管理系统-资产类型</title>
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+</head>
+
+<body>
+    <form id="" class="asset_f" method="post" action="">
+        <h3 class="right_nav">资产类型>> 添加子类型</h3>
+        <h2 class="tit_yi">资产类型</h2>
+        <div class="asset_row clearfix">
+            <div class="asset_list">
+                <ul class="asset_listul clearfix borderb">
+                    <li class="l">
+                        <h3 id="PersonalConsumption">个人消费贷款</h3>
+                    </li>
+                    <li class="r asset_titleli">
+                        <a href="javascript:void(0)" onclick="addAssetType('popupdiv','PersonalConsumption')">添加子类</a>
+                    </li>
+                </ul>
+                <ul class="asset_listul clearfix">
+                    <li>
+                        <span>1.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>2.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>3.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>4.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>5.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>6.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>6.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>6.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>6.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>6.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>6.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>6.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                </ul>
+                <span class="asset_add"></span>
+            </div>
+            <div class="asset_list">
+                <ul class="asset_listul clearfix borderb">
+                    <li class="l">
+                        <h3 id="PersonalManagement">个人经营贷款</h3>
+                    </li>
+                    <li class="r asset_titleli">
+                        <a href="javascript:void(0)" onclick="addAssetType('popupdiv','PersonalManagement')">添加子类</a>
+                    </li>
+                </ul>
+                <ul class="asset_listul clearfix">
+                    <li>
+                        <span>1.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>2.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                </ul>
+                <span class="asset_add"></span>
+            </div>
+            <div class="asset_list">
+                <ul class="asset_listul clearfix borderb">
+                    <li class="l">
+                        <h3 id="PersonalMortgage">个人质押贷款</h3>
+                    </li>
+                    <li class="r asset_titleli">
+                        <a href="javascript:void(0)" onclick="addAssetType('popupdiv','PersonalMortgage')">添加子类</a>
+                    </li>
+                </ul>
+                <ul class="asset_listul clearfix">
+                    <li>
+                        <span>1.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>2.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>3.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>4.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>5.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>6.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                </ul>
+                <span class="asset_add"></span>
+            </div>
+        </div>
+        <div class="asset_row clearfix">
+            <div class="asset_list">
+                <ul class="asset_listul clearfix borderb">
+                    <li class="l">
+                        <h3 id="EnterpriseCredit">企业信用贷款</h3>
+                    </li>
+                    <li class="r asset_titleli">
+                        <a href="javascript:void(0)" onclick="addAssetType('popupdiv','EnterpriseCredit')">添加子类</a>
+                    </li>
+                </ul>
+                <ul class="asset_listul clearfix">
+                    <li>
+                        <span>1.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>2.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>3.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>4.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>5.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>6.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                </ul>
+                <span class="asset_add"></span>
+            </div>
+            <div class="asset_list">
+                <ul class="asset_listul clearfix borderb">
+                    <li class="l">
+                        <h3 id="EnterpriseGuarantee">企业担保贷款</h3>
+                    </li>
+                    <li class="r asset_titleli">
+                        <a href="javascript:void(0)" onclick="addAssetType('popupdiv','EnterpriseGuarantee')">添加子类</a>
+                    </li>
+                </ul>
+                <ul class="asset_listul clearfix">
+                    <li>
+                        <span>1.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>2.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>3.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>4.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>5.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>6.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                </ul>
+                <span class="asset_add"></span>
+            </div>
+            <div class="asset_list">
+                <ul class="asset_listul clearfix borderb">
+                    <li class="l">
+                        <h3 id="EnterprisePledge">企业质押贷款</h3>
+                    </li>
+                    <li class="r asset_titleli">
+                        <a href="javascript:void(0)" onclick="addAssetType('popupdiv','EnterprisePledge')">添加子类</a>
+                    </li>
+                </ul>
+                <ul class="asset_listul clearfix">
+                    <li>
+                        <span>1.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>2.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>3.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>4.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>5.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                </ul>
+                <span class="asset_add"></span>
+            </div>
+        </div>
+        <div class="asset_row clearfix">
+            <div class="asset_list">
+                <ul class="asset_listul clearfix borderb">
+                    <li class="l">
+                        <h3 id="EnterpriseCredit">企业信用贷款</h3>
+                    </li>
+                    <li class="r asset_titleli">
+                        <a href="javascript:void(0)" onclick="addAssetType('popupdiv','EnterpriseCredit')">添加子类</a>
+                    </li>
+                </ul>
+                <ul class="asset_listul clearfix">
+                    <li>
+                        <span>1.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>2.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>3.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>4.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>5.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>6.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                </ul>
+                <span class="asset_add"></span>
+            </div>
+            <div class="asset_list">
+                <ul class="asset_listul clearfix borderb">
+                    <li class="l">
+                        <h3 id="EnterpriseGuarantee">企业担保贷款</h3>
+                    </li>
+                    <li class="r asset_titleli">
+                        <a href="javascript:void(0)" onclick="addAssetType('popupdiv','EnterpriseGuarantee')">添加子类</a>
+                    </li>
+                </ul>
+                <ul class="asset_listul clearfix">
+                    <li>
+                        <span>1.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>2.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>3.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>4.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>5.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>6.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                </ul>
+                <span class="asset_add"></span>
+            </div>
+            <div class="asset_list">
+                <ul class="asset_listul clearfix borderb">
+                    <li class="l">
+                        <h3 id="EnterprisePledge">企业质押贷款</h3>
+                    </li>
+                    <li class="r asset_titleli">
+                        <a href="javascript:void(0)" onclick="addAssetType('popupdiv','EnterprisePledge')">添加子类</a>
+                    </li>
+                </ul>
+                <ul class="asset_listul clearfix">
+                    <li>
+                        <span>1.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>2.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>3.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>4.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>5.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                </ul>
+                <span class="asset_add"></span>
+            </div>
+        </div>
+        <div class="asset_row clearfix">
+            <div class="asset_list">
+                <ul class="asset_listul clearfix borderb">
+                    <li class="l">
+                        <h3 id="EnterpriseCredit">企业信用贷款</h3>
+                    </li>
+                    <li class="r asset_titleli">
+                        <a href="javascript:void(0)" onclick="addAssetType('popupdiv','EnterpriseCredit')">添加子类</a>
+                    </li>
+                </ul>
+                <ul class="asset_listul clearfix">
+                    <li>
+                        <span>1.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>2.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>3.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>4.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>5.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>6.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                </ul>
+                <span class="asset_add"></span>
+            </div>
+            <div class="asset_list">
+                <ul class="asset_listul clearfix borderb">
+                    <li class="l">
+                        <h3 id="EnterpriseGuarantee">企业担保贷款</h3>
+                    </li>
+                    <li class="r asset_titleli">
+                        <a href="javascript:void(0)" onclick="addAssetType('popupdiv','EnterpriseGuarantee')">添加子类</a>
+                    </li>
+                </ul>
+                <ul class="asset_listul clearfix">
+                    <li>
+                        <span>1.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>2.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>3.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>4.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>5.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>6.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                </ul>
+                <span class="asset_add"></span>
+            </div>
+            <div class="asset_list">
+                <ul class="asset_listul clearfix borderb">
+                    <li class="l">
+                        <h3 id="EnterprisePledge">企业质押贷款</h3>
+                    </li>
+                    <li class="r asset_titleli">
+                        <a href="javascript:void(0)" onclick="addAssetType('popupdiv','EnterprisePledge')">添加子类</a>
+                    </li>
+                </ul>
+                <ul class="asset_listul clearfix">
+                    <li>
+                        <span>1.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>2.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>3.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>4.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>5.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                </ul>
+                <span class="asset_add"></span>
+            </div>
+        </div>
+        <div class="asset_row clearfix">
+            <div class="asset_list">
+                <ul class="asset_listul clearfix borderb">
+                    <li class="l">
+                        <h3 id="EnterpriseCredit">企业信用贷款</h3>
+                    </li>
+                    <li class="r asset_titleli">
+                        <a href="javascript:void(0)" onclick="addAssetType('popupdiv','EnterpriseCredit')">添加子类</a>
+                    </li>
+                </ul>
+                <ul class="asset_listul clearfix">
+                    <li>
+                        <span>1.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>2.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>3.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>4.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>5.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>6.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                </ul>
+                <span class="asset_add"></span>
+            </div>
+            <div class="asset_list">
+                <ul class="asset_listul clearfix borderb">
+                    <li class="l">
+                        <h3 id="EnterpriseGuarantee">企业担保贷款</h3>
+                    </li>
+                    <li class="r asset_titleli">
+                        <a href="javascript:void(0)" onclick="addAssetType('popupdiv','EnterpriseGuarantee')">添加子类</a>
+                    </li>
+                </ul>
+                <ul class="asset_listul clearfix">
+                    <li>
+                        <span>1.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>2.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>3.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>4.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>5.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>6.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                </ul>
+                <span class="asset_add"></span>
+            </div>
+            <div class="asset_list">
+                <ul class="asset_listul clearfix borderb">
+                    <li class="l">
+                        <h3 id="EnterprisePledge">企业质押贷款</h3>
+                    </li>
+                    <li class="r asset_titleli">
+                        <a href="javascript:void(0)" onclick="addAssetType('popupdiv','EnterprisePledge')">添加子类</a>
+                    </li>
+                </ul>
+                <ul class="asset_listul clearfix">
+                    <li>
+                        <span>1.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>2.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>3.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>4.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>5.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                </ul>
+                <span class="asset_add"></span>
+            </div>
+        </div>
+        <div class="asset_row clearfix">
+            <div class="asset_list">
+                <ul class="asset_listul clearfix borderb">
+                    <li class="l">
+                        <h3 id="EnterpriseCredit">企业信用贷款</h3>
+                    </li>
+                    <li class="r asset_titleli">
+                        <a href="javascript:void(0)" onclick="addAssetType('popupdiv','EnterpriseCredit')">添加子类</a>
+                    </li>
+                </ul>
+                <ul class="asset_listul clearfix">
+                    <li>
+                        <span>1.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>2.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>3.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>4.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>5.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>6.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                </ul>
+                <span class="asset_add"></span>
+            </div>
+            <div class="asset_list">
+                <ul class="asset_listul clearfix borderb">
+                    <li class="l">
+                        <h3 id="EnterpriseGuarantee">企业担保贷款</h3>
+                    </li>
+                    <li class="r asset_titleli">
+                        <a href="javascript:void(0)" onclick="addAssetType('popupdiv','EnterpriseGuarantee')">添加子类</a>
+                    </li>
+                </ul>
+                <ul class="asset_listul clearfix">
+                    <li>
+                        <span>1.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>2.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>3.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>4.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>5.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>6.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                </ul>
+                <span class="asset_add"></span>
+            </div>
+            <div class="asset_list">
+                <ul class="asset_listul clearfix borderb">
+                    <li class="l">
+                        <h3 id="EnterprisePledge">企业质押贷款</h3>
+                    </li>
+                    <li class="r asset_titleli">
+                        <a href="javascript:void(0)" onclick="addAssetType('popupdiv','EnterprisePledge')">添加子类</a>
+                    </li>
+                </ul>
+                <ul class="asset_listul clearfix">
+                    <li>
+                        <span>1.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>2.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>3.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>4.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>5.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                </ul>
+                <span class="asset_add"></span>
+            </div>
+        </div>
+        <div class="asset_row clearfix">
+            <div class="asset_list">
+                <ul class="asset_listul clearfix borderb">
+                    <li class="l">
+                        <h3 id="EnterpriseCredit">企业信用贷款</h3>
+                    </li>
+                    <li class="r asset_titleli">
+                        <a href="javascript:void(0)" onclick="addAssetType('popupdiv','EnterpriseCredit')">添加子类</a>
+                    </li>
+                </ul>
+                <ul class="asset_listul clearfix">
+                    <li>
+                        <span>1.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>2.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>3.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>4.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>5.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>6.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                </ul>
+                <span class="asset_add"></span>
+            </div>
+            <div class="asset_list">
+                <ul class="asset_listul clearfix borderb">
+                    <li class="l">
+                        <h3 id="EnterpriseGuarantee">企业担保贷款</h3>
+                    </li>
+                    <li class="r asset_titleli">
+                        <a href="javascript:void(0)" onclick="addAssetType('popupdiv','EnterpriseGuarantee')">添加子类</a>
+                    </li>
+                </ul>
+                <ul class="asset_listul clearfix">
+                    <li>
+                        <span>1.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>2.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>3.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>4.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>5.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>6.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                </ul>
+                <span class="asset_add"></span>
+            </div>
+            <div class="asset_list">
+                <ul class="asset_listul clearfix borderb">
+                    <li class="l">
+                        <h3 id="EnterprisePledge">企业质押贷款</h3>
+                    </li>
+                    <li class="r asset_titleli">
+                        <a href="javascript:void(0)" onclick="addAssetType('popupdiv','EnterprisePledge')">添加子类</a>
+                    </li>
+                </ul>
+                <ul class="asset_listul clearfix">
+                    <li>
+                        <span>1.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>2.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>3.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>4.信用卡代还</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                    <li>
+                        <span>5.房租分期</span>
+                        <a href="javascript:void(0)" class="r">删除</a>
+                    </li>
+                </ul>
+                <span class="asset_add"></span>
+            </div>
+        </div>
+    </form>
+    <form id="AddAssetTypeSubclass" method="post" action="">
+        <div id="popupdiv" class="popupdiv" style="width:340px; display:none;">
+            <h3>
+				<span class="l">添加资产类型子类</span><a href="javascript:void(0)" onclick="closeDiv('popupdiv')" class="close r"></a>
+			</h3>
+            <br/>
+            <ul class="popu_list">
+                <li>
+                    <label class="wid_lab">资产类型：</label>
+                    <span id="addAssetTypeTitle">个人消费贷款</span>
+                    <input type="hidden" name="">
+                </li>
+                <li>
+                    <label class="wid_lab">子类名称：</label>
+                    <input type="text" class="input" id="SubclassName" placeholder="请输入子类名称">
+                </li>
+            </ul>
+            <div class="popbot">
+                <a class="btn_sure" href="javascript:void(0)">确定</a>
+                <a class="btn_cancel" href="javascript:void(0)" onclick="closeDiv('popupdiv')">取消</a>
+            </div>
+        </div>
+    </form>
+</body>
